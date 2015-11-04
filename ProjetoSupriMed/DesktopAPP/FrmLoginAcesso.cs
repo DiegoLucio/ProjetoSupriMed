@@ -14,12 +14,14 @@ namespace ProjetoSupriMed.DesktopAPP
 {
     public partial class FrmLoginAcesso : Form
     {
+
         public FrmLoginAcesso()
         {
             InitializeComponent();
         }
 
         AutenticarBLL bll = new AutenticarBLL();
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (txtUsuarioLogin.Text == "" || txtSenhaLogin.Text == "")
@@ -41,6 +43,7 @@ namespace ProjetoSupriMed.DesktopAPP
                 {
                     MessageBox.Show("Bem-Vindo " + txtUsuarioLogin.Text);
                     FrmPrincipal p = new FrmPrincipal();
+                    UsuarioLogadoDTO.UsuarioLogado = txtUsuarioLogin.Text;
                     p.Show();
                     this.Visible = false;
                 }

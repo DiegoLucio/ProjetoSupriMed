@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoSupriMed.Code.DTO;
+
 
 namespace ProjetoSupriMed.DesktopAPP
 {
@@ -15,6 +17,14 @@ namespace ProjetoSupriMed.DesktopAPP
         public FrmPrincipal()
         {
             InitializeComponent();
+
+            tSSLExibiData.Text = DateTime.Now.ToString();
+
+        }
+
+        private void FrmPrincipal_Load(object sender, EventArgs e)
+        {
+            tSSLUsuarioLogado.Text = UsuarioLogadoDTO.UsuarioLogado;
         }
     }
 }

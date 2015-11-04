@@ -54,6 +54,7 @@
     <Compile Include="Code\DTO\PecasDTO.cs" />
     <Compile Include="Code\DTO\ProdutosDTO.cs" />
     <Compile Include="Code\DTO\SetoresDTO.cs" />
+    <Compile Include="Code\DTO\UsuarioLogadoDTO.cs" />
     <Compile Include="Code\DTO\VendasDTO.cs" />
     <Compile Include="Code\DTO\VendedoresDTO.cs" />
     <Compile Include="Code\DTO\VisitasDTO.cs" />
@@ -79,6 +80,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DesktopAPP\FrmLoginAcesso.resx">
       <DependentUpon>FrmLoginAcesso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DesktopAPP\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -108,6 +112,7 @@
     <Content Include="img\background_login.png" />
     <Content Include="img\back_2.png" />
     <Content Include="img\deletered.png" />
+    <Content Include="img\health_care_shield.ico" />
     <Content Include="img\login.ico" />
     <Content Include="img\mail_new.ico" />
     <Content Include="img\new.png" />
