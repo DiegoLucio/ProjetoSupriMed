@@ -17,7 +17,7 @@ namespace ProjetoSupriMed
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogindeAcesso());
+            Application.Run(new FrmLoginAcesso());
         }
     }
 }
