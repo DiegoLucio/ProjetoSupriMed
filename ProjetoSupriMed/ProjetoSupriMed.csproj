@@ -48,10 +48,15 @@
   <ItemGroup>
     <Compile Include="Code\BLL\AutenticarBLL.cs" />
     <Compile Include="Code\DAL\ConexaoDAL.cs" />
+    <Compile Include="Code\DTO\ClientesDTO.cs" />
     <Compile Include="Code\DTO\FuncionariosDTO.cs" />
     <Compile Include="Code\DTO\LoginDTO.cs" />
+    <Compile Include="Code\DTO\PecasDTO.cs" />
+    <Compile Include="Code\DTO\ProdutosDTO.cs" />
     <Compile Include="Code\DTO\SetoresDTO.cs" />
+    <Compile Include="Code\DTO\VendasDTO.cs" />
     <Compile Include="Code\DTO\VendedoresDTO.cs" />
+    <Compile Include="Code\DTO\VisitasDTO.cs" />
     <Compile Include="DesktopAPP\FrmLoginAcesso.cs">
       <SubType>Form</SubType>
     </Compile>
