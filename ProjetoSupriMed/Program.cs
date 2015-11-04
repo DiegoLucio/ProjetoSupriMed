@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ProjetoSupriMed.DesktopAPP;
 
 namespace ProjetoSupriMed
 {
@@ -16,7 +17,7 @@ namespace ProjetoSupriMed
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmAutenticar());
+            Application.Run(new FrmLogindeAcesso());
         }
     }
 }

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjetoSupriMed
+namespace ProjetoSupriMed.DesktopAPP
 {
-    public partial class FrmAutenticar : Form
+    public partial class FrmPrincipal : Form
     {
-        public FrmAutenticar()
+        public FrmPrincipal()
         {
             InitializeComponent();
         }
