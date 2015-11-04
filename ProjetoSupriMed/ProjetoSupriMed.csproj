@@ -53,6 +53,7 @@
     <Compile Include="Code\DTO\LoginDTO.cs" />
     <Compile Include="Code\DTO\PecasDTO.cs" />
     <Compile Include="Code\DTO\ProdutosDTO.cs" />
+    <Compile Include="Code\DTO\SetoresDTO.cs" />
     <Compile Include="Code\DTO\VendasDTO.cs" />
     <Compile Include="Code\DTO\VendedoresDTO.cs" />
     <Compile Include="Code\DTO\VisitasDTO.cs" />
