@@ -52,12 +52,6 @@
     <Compile Include="Code\DTO\LoginDTO.cs" />
     <Compile Include="Code\DTO\SetoresDTO.cs" />
     <Compile Include="Code\DTO\VendedoresDTO.cs" />
-    <Compile Include="DesktopAPP\FrmLogindeAcesso.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DesktopAPP\FrmLogindeAcesso.Designer.cs">
-      <DependentUpon>FrmLogindeAcesso.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormBase\FrmBase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,9 +60,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DesktopAPP\FrmLogindeAcesso.resx">
-      <DependentUpon>FrmLogindeAcesso.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -92,7 +83,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="DesktopAPP\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="img\background_login.png" />
     <Content Include="img\back_2.png" />
