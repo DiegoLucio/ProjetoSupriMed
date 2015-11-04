@@ -12,12 +12,12 @@ namespace ProjetoSupriMed.Code.BLL
 {
     public class AutenticarBLL
     {
-        private readonly string conn = @"Data Source=.\SQLEXPRESS;Initial Catalog=SUPRIMEDICO;Persist Security Info=True;User ID=sa;Password=123456";
+        
         public bool AutenticarUsuario(LoginDTO login)
         {
             try
             {
-                ConexaoDAL conexaodao = new ConexaoDAL(conn);
+                ConexaoDAL conexaodao = new ConexaoDAL();
 
                 SqlCommand cmd = new SqlCommand("select * from LOGIN where LOG_USUARIO = @LOG_USUARIO AND LOG_SENHA = @LOG_SENHA", conexaodao.Conexao);
 

@@ -9,26 +9,17 @@ namespace ProjetoSupriMed.Code.DAL
 {
     public class ConexaoDAL
     {
-        private String _strconexao;
+        private String _strconexao = @"Data Source=.\SQLEXPRESS;Initial Catalog=SUPRIMEDICO;Persist Security Info=True;User ID=sa;Password=123456";
         private SqlConnection _conexao;
 
-        public ConexaoDAL(String dadosconexao)
+        public ConexaoDAL()
         {
             this._conexao = new SqlConnection();
-            this._strconexao = dadosconexao;
-            this._conexao.ConnectionString = dadosconexao;
+
+
+            this._conexao.ConnectionString = _strconexao;
         }
-        public String StringConexao
-        {
-            get
-            {
-                return this._strconexao;
-            }
-            set
-            {
-                this._strconexao = value;
-            }
-        }
+
         public SqlConnection Conexao
         {
             get
