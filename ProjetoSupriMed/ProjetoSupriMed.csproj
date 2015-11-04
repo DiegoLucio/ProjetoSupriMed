@@ -58,12 +58,6 @@
     <Compile Include="DesktopAPP\FrmLogindeAcesso.Designer.cs">
       <DependentUpon>FrmLogindeAcesso.cs</DependentUpon>
     </Compile>
-    <Compile Include="DesktopAPP\FrmPrincipal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DesktopAPP\FrmPrincipal.Designer.cs">
-      <DependentUpon>FrmPrincipal.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormBase\FrmBase.cs">
       <SubType>Form</SubType>
     </Compile>
