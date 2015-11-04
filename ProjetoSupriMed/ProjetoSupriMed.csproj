@@ -52,6 +52,18 @@
     <Compile Include="Code\DTO\LoginDTO.cs" />
     <Compile Include="Code\DTO\SetoresDTO.cs" />
     <Compile Include="Code\DTO\VendedoresDTO.cs" />
+    <Compile Include="DesktopAPP\FrmLoginAcesso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesktopAPP\FrmLoginAcesso.Designer.cs">
+      <DependentUpon>FrmLoginAcesso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DesktopAPP\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DesktopAPP\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormBase\FrmBase.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DesktopAPP\FrmLoginAcesso.resx">
+      <DependentUpon>FrmLoginAcesso.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,9 +98,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DesktopAPP\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="img\background_login.png" />
     <Content Include="img\back_2.png" />
